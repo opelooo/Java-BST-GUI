@@ -1,5 +1,6 @@
 package AVL_Tree;
 
+import java.awt.Color;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
@@ -103,6 +104,7 @@ public class GUIFrame extends javax.swing.JFrame {
             });
 
             btnTambah.setText("OK");
+            btnTambah.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
             btnTambah.addActionListener(new java.awt.event.ActionListener() {
                   public void actionPerformed(java.awt.event.ActionEvent evt) {
                         btnTambahActionPerformed(evt);
@@ -110,6 +112,7 @@ public class GUIFrame extends javax.swing.JFrame {
             });
 
             btnHapus.setText("OK");
+            btnHapus.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
             btnHapus.addActionListener(new java.awt.event.ActionListener() {
                   public void actionPerformed(java.awt.event.ActionEvent evt) {
                         btnHapusActionPerformed(evt);
@@ -117,6 +120,7 @@ public class GUIFrame extends javax.swing.JFrame {
             });
 
             btnCari.setText("OK");
+            btnCari.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
             btnCari.addActionListener(new java.awt.event.ActionListener() {
                   public void actionPerformed(java.awt.event.ActionEvent evt) {
                         btnCariActionPerformed(evt);
@@ -194,12 +198,12 @@ public class GUIFrame extends javax.swing.JFrame {
                   .addGroup(tabManipulasiLayout.createSequentialGroup()
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE))
             );
             tabManipulasiLayout.setVerticalGroup(
                   tabManipulasiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                   .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                  .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 441, Short.MAX_VALUE)
+                  .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 443, Short.MAX_VALUE)
             );
 
             jTabbedPane1.addTab("Manipulasi Data", tabManipulasi);
@@ -225,7 +229,7 @@ public class GUIFrame extends javax.swing.JFrame {
                   tabInorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                   .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tabInorLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 782, Short.MAX_VALUE)
                         .addContainerGap())
             );
             tabInorLayout.setVerticalGroup(
@@ -259,7 +263,7 @@ public class GUIFrame extends javax.swing.JFrame {
                   jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                   .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 782, Short.MAX_VALUE)
                         .addContainerGap())
             );
             jPanel3Layout.setVerticalGroup(
@@ -293,7 +297,7 @@ public class GUIFrame extends javax.swing.JFrame {
                   jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                   .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 782, Short.MAX_VALUE)
                         .addContainerGap())
             );
             jPanel4Layout.setVerticalGroup(
@@ -327,7 +331,7 @@ public class GUIFrame extends javax.swing.JFrame {
             getContentPane().setLayout(layout);
             layout.setHorizontalGroup(
                   layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                  .addGap(0, 808, Short.MAX_VALUE)
+                  .addGap(0, 810, Short.MAX_VALUE)
                   .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
                               .addGap(0, 0, Short.MAX_VALUE)
@@ -336,7 +340,7 @@ public class GUIFrame extends javax.swing.JFrame {
             );
             layout.setVerticalGroup(
                   layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                  .addGap(0, 490, Short.MAX_VALUE)
+                  .addGap(0, 492, Short.MAX_VALUE)
                   .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
                               .addGap(0, 0, Short.MAX_VALUE)
